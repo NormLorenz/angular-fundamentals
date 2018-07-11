@@ -9,7 +9,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    CommonModule
+    CommonModule,
   ],
   bootstrap: [
     AppComponent

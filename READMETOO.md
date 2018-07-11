@@ -1,4 +1,6 @@
-## https://ultimateangular.teachable.com/courses/enrolled/100820
+## Tutorial https://ultimateangular.teachable.com/courses/enrolled/100820
+## Documentation https://angular.io/docs
+## Site https://angular.io/
 
 ### clone and change remote
 
