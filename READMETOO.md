@@ -28,4 +28,6 @@ yarn install
 * service
 * routing
 * Component is just a decorator
-
+* use one-way data binding/data flow
+* data down, actions up
+* smart/dumb components
