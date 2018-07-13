@@ -31,3 +31,4 @@ yarn install
 * use one-way data binding/data flow
 * data down, actions up
 * smart/dumb components
+* CTRL F2 to Rename Symbol

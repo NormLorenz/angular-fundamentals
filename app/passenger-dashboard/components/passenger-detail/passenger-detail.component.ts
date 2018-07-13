@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Passenger } from '../../models/passenger.interface';
 
 @Component({
   selector: 'passenger-detail',
@@ -7,5 +8,7 @@ import { Component } from '@angular/core';
 })
 
 export class PassengerDetailComponent {
-  constructor() {}
+  @Input()
+  detail: Passenger;
+  constructor() { }
 }
