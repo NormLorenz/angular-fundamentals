@@ -32,3 +32,6 @@ yarn install
 * data down, actions up
 * smart/dumb components
 * CTRL F2 to Rename Symbol
+
+* to scroll the screen up and down use the CTRL + scroll button
+* to scroll the screen left and right use the CTRL + scroll button
