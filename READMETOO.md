@@ -1,6 +1,11 @@
-## Tutorial https://ultimateangular.teachable.com/courses/enrolled/100820
-## Documentation https://angular.io/docs
-## Site https://angular.io/
+## angular course
+  * Tutorial https://ultimateangular.teachable.com/courses/enrolled/100820
+  * Documentation https://angular.io/docs
+  * Site https://angular.io/
+
+## login
+  * name = my email address
+  * password = same as github password
 
 ### clone and change remote
 
@@ -35,3 +40,4 @@ yarn install
 
 * to scroll the screen up and down use the CTRL + scroll button
 * to scroll the screen left and right use the CTRL + scroll button
+* to make property binding wrap in [] brackets

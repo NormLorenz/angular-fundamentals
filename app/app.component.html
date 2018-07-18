@@ -1,11 +1,18 @@
 <div class='app'>
 
   <h3>{{title}}</h3>
+
   <br />
-  <br />
+
+  <nav class='nav'>
+    <a routerLink='/' routerLinkActive='active' [routerLinkActiveOptions]='{ exact: true }'> Home </a>
+    <a routerLink='/oops' routerLinkActive='active'> 404 </a>
+  </nav>
+
   <router-outlet></router-outlet>
+
   <br />
-  <br />
+
   <img src='img/logo.svg'>
 
 </div>
