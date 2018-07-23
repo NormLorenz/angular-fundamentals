@@ -7,6 +7,9 @@
   * name = my email address
   * password = same as github password
 
+## keyboard mapping
+https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf
+
 ### clone and change remote
 
 ```bash
