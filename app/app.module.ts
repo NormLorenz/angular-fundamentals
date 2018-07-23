@@ -19,12 +19,9 @@ const routes: Routes = [
     NotFoundComponent
   ],
   imports: [
-    // angular modules
     BrowserModule,
     CommonModule,
     RouterModule.forRoot(routes),
-
-    // custom modules
     PassengerDashboardModule
   ],
   bootstrap: [

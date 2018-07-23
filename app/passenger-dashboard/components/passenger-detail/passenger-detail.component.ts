@@ -15,10 +15,13 @@ export class PassengerDetailComponent implements OnChanges, OnInit {
   detail: Passenger;
 
   @Output()
-  edit: EventEmitter<any> = new EventEmitter();
+  edit: EventEmitter<Passenger> = new EventEmitter();
 
   @Output()
-  remove: EventEmitter<any> = new EventEmitter();
+  remove: EventEmitter<Passenger> = new EventEmitter();
+
+  @Output()
+  view: EventEmitter<Passenger> = new EventEmitter();
 
   ngOnChanges(changes) {
     if (changes.detail) {
@@ -33,6 +36,10 @@ export class PassengerDetailComponent implements OnChanges, OnInit {
 
   onNameChange(value: string) {
     this.detail.fullname = value;
+  }
+
+  goToPassenger() {
+    this.view.emit(this.detail);
   }
 
   toggleEdit() {

@@ -10,6 +10,11 @@
 ## keyboard mapping
 https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf
 
+* toggle side bar Ctrl + B
+* Ctrl F2 to Rename Symbol
+* to scroll the screen up and down use the Ctrl + scroll button
+* to scroll the screen left and right use the Ctrl + scroll button
+
 ### clone and change remote
 
 ```bash
@@ -39,8 +44,4 @@ yarn install
 * use one-way data binding/data flow
 * data down, actions up
 * smart/dumb components
-* CTRL F2 to Rename Symbol
-
-* to scroll the screen up and down use the CTRL + scroll button
-* to scroll the screen left and right use the CTRL + scroll button
 * to make property binding wrap in [] brackets

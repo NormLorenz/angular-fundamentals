@@ -16,12 +16,14 @@ import { PassengerFormComponent } from './components/passenger-form/passenger-fo
 
 // service
 import { PassengerDashboardService } from './passenger-dashboard.service';
-// import { Router } from '@angular/router/src/router';
 
 const routes: Routes = [
   {
     path: 'passengers',
-    component: PassengerDashboardComponent
+    children: [
+      { path: '', component: PassengerDashboardComponent },
+      { path: ':id', component: PassengerViewerComponent }
+    ]
   }
 ];
 
